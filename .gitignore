@@ -1,0 +1,29 @@
+# 依赖目录
+node_modules/
+
+# 输入和输出目录
+input/
+output/
+
+# 日志文件
+*.log
+
+# 环境变量文件
+.env
+
+# 操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 临时文件
+*.tmp
+*.temp
+
+# 转换过程中的临时文件
+*.mp4.tmp

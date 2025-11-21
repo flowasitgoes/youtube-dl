@@ -1,0 +1,22 @@
+{
+  "name": "youtube-dl-webm-converter",
+  "version": "1.0.0",
+  "description": "WebM to MP4 converter using Node.js and FFmpeg",
+  "main": "converter.js",
+  "scripts": {
+    "start": "node converter.js",
+    "convert": "node converter.js",
+    "test": "node test.js"
+  },
+  "keywords": ["ffmpeg", "webm", "mp4", "converter", "video"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.1",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
